@@ -1,0 +1,8 @@
+<form [formGroup]="form">
+  <div>Username: <input type="text" formControlName="username"></div>
+  <div>Password: <input type="password" formControlName="password"></div>
+  <button (click)="login(form)">login</button>
+  <button (click)="loginFB()">LoginFb</button>
+</form>
+<!--<div id="fb-root"></div>-->
+<!--<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v8.0&appId=948386772350633&autoLogAppEvents=1" nonce="AV7cBZWQ"></script>-->
